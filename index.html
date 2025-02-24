@@ -1,0 +1,298 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Blue Mind by Claire Dufour</title>
+		<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="assets/css/main.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+						<img src="images/logotest3.png" alt="Blue Mind Logo" style="max-width: 120%; height: auto;">
+							<a href="#nav" class="button icon solid solo fa-arrow-down scrolly"></a>
+</div></div>
+
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a >Blue Mind</a></li>
+							<li><a>À propos</a></li>
+							<li><a>Activités</a></li>
+							<li><a>Tarifs</a></li>
+							<li><a>Events</a></li>
+							<li><a>Retours</a></li>
+							<li><a>Contact</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="+tel:+33670634585" class="icon brands fa-whatsapp"><span class="label">Whatsapp</span></a></li>
+							<li><a href="https://www.instagram.com/bluemind.clairedufour/" class="icon brands fa-instagram"><span class="label">Facebook</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+					</div>
+
+
+				<!-- Copyright -->
+					<div id="copyright">
+						Design: <a href="https://www.margauxhaering.fr">margaux haering</a>
+					</div>
+								</div>
+
+
+		<!-- Scripts -->
+		<script>
+
+		document.addEventListener("DOMContentLoaded", () => {
+			let navLinks;
+
+			if (window.innerWidth < 500) {
+			    navLinks = document.querySelectorAll("#navPanel nav .links li");
+					const navPanel = document.querySelector("#navPanel");
+					navLinks.forEach(link => {
+					    link.addEventListener("click", () => {
+					        document.body.classList.remove("is-navPanel-visible");
+
+					    });
+					});
+			} else {
+			    navLinks = document.querySelectorAll("#nav .links li");
+			}
+    const mainContent = document.getElementById("main");
+
+    const contentMap = {
+        "Blue Mind": `
+				<article class="post featured" id='main'>
+					<header class="major">
+						<img src="images/logo2test2.png" alt="Blue Mind Logo" style="max-width: 100%; height: auto;">
+						<div class='row' style='margin-left:0;'>
+						<div class='col-6-1 col-6-small'>
+						<p><b>Claire a 29 ans, elle est monitrice d’apnée et Somatopathe. </b><br><br>
+Elle a grandi dans le var, les pieds dans la mer Méditerranée. <br>
+D’abord nageuse puis sauveteuse sur les plages varoises, elle a finalement découvert l’apnée à la faculté des sports avec Claude Chapuis et Delphine Marleux durant sa licence en filière entraînement sportif.<br>
+Passionnée par la nature, la mer, c’est tout naturellement qu’elle s’y est mise en 2014.<br><br>
+N’ayant pas une approche compétitive, elle aborde l’apnée et les activités de la mer dans une approche bien-être et passionnée.<br>
+La mer, l’eau, les éléments, la respiration, l’exploration sont pour elle une importante source de mieux-être et d’ancrage, au quotidien.<br>
+<br><br>Après 10 années d’expériences et d’enseignements divers et variés, au sein de différentes structures et publics, en France et à Monaco, elle a décidé de se lancer seule, afin de proposer un enseignement à son image, dans la douceur et la connexion à l’environnement.<br><br>
+C’est sur la douceur, le calme et la découverte de la vie sous marine qu’elle base son enseignement.</p>
+
+</div>
+<div class='col-6-1 col-6-small'>
+	<div class="vidmain">		<video autoplay muted loop playsinline preload="auto">
+								<source src="images/site.mov" type="video/webm">
+								Your browser does not support the video tag.
+							</video></div>
+</div></div>
+					</header>
+				</article>
+        `,
+        "Activités": `
+				<article class="post featured">
+					<header class="major">
+						<h2><a>Les activités</a></h2>
+						<p>De l'initiation au pratiquants <br> Toutes les activités se déroulent en petit groupe.</p>
+					</header>
+				</article>
+				<section class="posts">
+					<article>
+						<header>
+							<h2>Apnée</h2>
+						</header>
+						<a href="activites.html?activity=Apnée#nav" class="image fit"><img src="images/claire2.png" alt="" /></a>
+						<ul class="actions special">
+							<li><a href="activites.html?activity=Apnée#nav" class="button">En détails</a></li>
+						</ul>
+					</article>
+					<article>
+						<header>
+							<h2>Snorkelling</h2>
+						</header>
+						<a href="activites.html?activity=Snorkelling#nav" class="image fit"><img src="images/snork.jpg" alt="" /></a>
+						<ul class="actions special">
+							<li><a href="activites.html?activity=Snorkelling#nav" class="button">En détails</a></li>
+						</ul>
+					</article>
+					<article>
+						<header>
+							<h2>Formule Sunset/sunrise</h2>
+						</header>
+						<a href="activites.html?activity=Formule Sun#nav" class="image fit"><img src="images/sunset.jpg" alt="" /></a>
+						<ul class="actions special">
+							<li><a href="activites.html?activity=Formule Sun#nav" class="button">En détails</a></li>
+						</ul>
+					</article>
+					<article>
+						<header>
+							<h2>Formule explore</h2>
+						</header>
+						<a href="activites.html?activity=Formule Explore#nav" class="image fit"><img src="images/stretch.png" alt="" /></a>
+						<ul class="actions special">
+							<li><a href="activites.html?activity=Formule Explore#nav" class="button">En détails</a></li>
+						</ul>
+					</article>
+					<article>
+						<header>
+							<h2>Stage</h2>
+						</header>
+						<a href="activites.html?activity=Stage#nav" class="image fit"><img src="images/paddle.jpg" alt="" /></a>
+						<ul class="actions special">
+							<li><a href="activites.html?activity=Stage#nav" class="button">En détails</a></li>
+						</ul>
+					</article>
+				</section>
+        `,        "Tarifs": `
+								<div>
+									<img src="images/tarifs.png" alt="Blue Mind" style="max-width: 100%; height: auto;">
+									<p>	Toutes les activités sont proposées avec un départ depuis le bord ou en bateau.<br> Le bateau étant seulement un moyen de transport mit à disposition pour se rendre sur le lieu d’activité et non vendu comme une balade en bateau. <br><br></p>
+
+								</div>
+
+				        `,"Events": `
+            <section>
+                <h2>Events à venir</h2>
+								<div class="events-container">
+
+			<!-- Event Card 1 -->
+			<div class="event-card">
+			<div class="event-date">
+			<span class="day">24</span>
+			<span class="month-year">Feb 2048</span>
+			</div>
+			<div class="event-content">
+			<img src="images/paddle.jpg" alt="Event 1" class="event-image">
+			<div class="event-details">
+				<h2>Sunset apnée & apéro</h2>
+				<p><strong>17h30-20h30</strong> <br><br><strong>Lieu:</strong> Beaulieu sur Mer <br><strong>Prix:</strong>85$</p>
+			</div>
+			</div>
+			</div>
+
+			<div class="event-card">
+			<div class="event-date">
+			<span class="day">28</span>
+			<span class="month-year">Feb 2048</span>
+			</div>
+			<div class="event-content">
+			<img src="images/snork.jpg" alt="Event 2" class="event-image">
+			<div class="event-details">
+				<h2>Balade paddle/ Explo & petit dej</h2>
+				<p><strong>9h-12h</strong><br><br><strong>Lieu:</strong> Monaco <br><strong>Prix:</strong> 100$</p>
+
+			</div>
+			</div>
+			</div>
+			</div>
+            </section>
+        `,"Retours": `
+
+
+				<div class="responsive-container-block big-container">
+		  <div class="responsive-container-block bg">
+		    <p class="text-blk title">
+		      Vos retours comptent!<br><br>
+		    </p>
+		    <div class="responsive-container-block blocks">
+		      <div class="responsive-cell-block wk-desk-1 wk-tab-1 wk-mobile-1 wk-ipadp-1 content">
+		        <p class="text-blk info-block">
+		          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus elementum magna ut duis pulvinar tincidunt vivamus adipiscing quam. Eget dui quis etiam sed eget sed est.
+		        </p>
+		        <div class="responsive-container-block person">
+		          <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12 icon-block">
+		          </div>
+		          <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12 text-block">
+		            <p class="text-blk name">
+		              Marie
+		            </p>
+		            <p class="text-blk desig">
+		              Fevrier 2025
+		            </p>
+		          </div>
+		        </div>
+		      </div>
+		      <div class="responsive-cell-block wk-desk-1 wk-tab-1 wk-mobile-1 wk-ipadp-1 content">
+		        <p class="text-blk info-block">
+		          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus elementum magna ut duis pulvinar tincidunt vivamus adipiscing quam. Eget dui quis etiam sed eget sed est.
+		        </p>
+		        <div class="responsive-container-block person">
+		          <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12 icon-block">
+		          </div>
+		          <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12 text-block">
+		            <p class="text-blk name">
+		              Jean
+		            </p>
+		            <p class="text-blk desig">
+		              Aout 2024
+		            </p>
+		          </div>
+		        </div>
+		      </div>
+		      <div class="responsive-cell-block wk-desk-1 wk-tab-1 wk-mobile-1 wk-ipadp-1 content bottom">
+		        <p class="text-blk info-block">
+		          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus elementum magna ut duis pulvinar tincidunt vivamus adipiscing quam. Eget dui quis etiam sed eget sed est.
+		        </p>
+		        <div class="responsive-container-block person">
+		          <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12 icon-block">
+		          </div>
+		          <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12 text-block">
+		            <p class="text-blk name">
+		              Jeanne
+		            </p>
+		            <p class="text-blk desig">
+		              Juillet 2024
+		            </p>
+		          </div>
+		        </div>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		</section>
+`
+    };
+		function setActiveTab(link) {
+         navLinks.forEach(nav => nav.classList.remove("active"));
+         link.classList.add("active");
+         const linkText = link.textContent.trim();
+         mainContent.innerHTML = contentMap[linkText] || "<p>A venir</p>";
+     }
+
+     if (navLinks.length > 0) {
+         setActiveTab(navLinks[0]);
+     }
+
+     navLinks.forEach(link => {
+         link.addEventListener("click", () => setActiveTab(link));
+     });
+
+
+
+ });
+
+
+
+</script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
