@@ -156,7 +156,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 360px) {
+		@media screen and (max-width: 480px) {
 
 			html {
 				font-size: 10pt;
@@ -502,7 +502,6 @@ input, select, textarea {
 				  }
 				  .insta-post img {
 				 		 width: 100%;
-				 		 height: 250px;
 				 		 object-fit: cover;
 				  }
 
@@ -809,9 +808,7 @@ input, select, textarea {
 	  width: 100%;
 	}
 
-	img {
-	  object-fit: cover;
-	}
+
 
 	.responsive-container-block {
 	  min-height: 75px;
@@ -2361,7 +2358,7 @@ input, select, textarea {
 			cursor: default;
 			text-align: center;
 			background-color: #fcf6ed;
-			background-image: url("/bluemind/images/bgd.jpg");
+			background-image: url("/images/bgd.jpg");
 			background-size: 100% auto;
 			background-position: top;
 			background-repeat: no-repeat;
@@ -2401,12 +2398,14 @@ input, select, textarea {
 			opacity: 1;
 		}
 
-		@media screen and (max-width: 730px) {
+
+		@media screen and (max-width: 480px) {
 
 			#wrapper > .bg {
 				background-size: cover;
-					height: 120%;
+					height: 100%;
 			}
+
 
 
 		}
@@ -2488,7 +2487,8 @@ object-fit: cover;
 
 		#intro img {
 		    position: relative;
-		    top: -300px;
+		    top: -350px;
+				width: 80%;
 		}
 	}
 
