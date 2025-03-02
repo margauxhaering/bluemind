@@ -56,8 +56,6 @@
 
 		<!-- Scripts -->
 		<script>
-		window.history.pushState({}, "", "/activites");
-
 
 		document.addEventListener("DOMContentLoaded", () => {
 		    const urlParams = new URLSearchParams(window.location.search);
@@ -441,6 +439,13 @@ Que vous souhaitiez découvrir l’apnée, progresser techniquement ou explorer 
 	             history.replaceState(null, "", `?activity=${selectedActivity}`);
 	         });
 	     });
+	 });
+
+	 document.querySelectorAll(".nav").forEach(item => {
+			 item.addEventListener("click", function(event) {
+					 event.preventDefault();
+					 document.querySelector("#main").scrollIntoView({ behavior: "smooth" });
+			 });
 	 });
 
 </script>
