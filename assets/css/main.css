@@ -92,8 +92,17 @@ input, select, textarea {
     transform: scale(1.05);
 }
 
+ #claire{
+	 padding-left:100px;
+ }
 
+ @media screen and (max-width: 480px) {
 
+	 #claire {
+		 padding-left:0px;
+	 }
+
+ }
 
 	@-ms-viewport {
 		width: device-width;
