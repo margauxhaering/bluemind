@@ -2344,6 +2344,11 @@ input, select, textarea {
 	width:60%;
 }
 
+@media (max-width: 450px) {
+.vidmain video{
+	width:90%;
+}
+}
 
 
 
@@ -3800,7 +3805,7 @@ object-fit: cover;
 		@media screen and (max-width: 1280px) {
 
 			#copyright {
-				margin: 4rem auto;
+				margin: 2rem;
 			}
 
 		}
@@ -3809,7 +3814,7 @@ object-fit: cover;
 
 			#copyright ul li {
 				border-left: 0;
-				margin: 1rem 0 0 0;
+				margin: 0.5rem 0 0 0;
 				padding-left: 0;
 				display: block;
 			}
