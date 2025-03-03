@@ -1280,6 +1280,7 @@ input, select, textarea {
 				font-size: 0.9rem;
 				height: 3.25rem;
 				line-height: 3.25rem;
+				bottom: 150px;
 			}
 
 				input[type="submit"].large,
