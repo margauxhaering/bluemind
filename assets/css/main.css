@@ -607,6 +607,7 @@ input, select, textarea {
 .table-responsive tr {
   border: 0;
 	font-family:'Cormorant Garamond', serif;
+
 }
 
 .table-responsive thead tr {
@@ -617,7 +618,14 @@ input, select, textarea {
 .table-responsive th {
   text-transform: none !important;
 	font-weight: lighter;
+		font-size: 16px;
 
+}
+
+@media (max-width: 450px) {
+    .table-responsive th {
+        font-size: 20px; /* Adjust to desired size */
+    }
 }
 
 .table-responsive thead th {
@@ -664,6 +672,7 @@ input, select, textarea {
 							.table-responsive-xxl{overflow-x:auto;-webkit-overflow-scrolling:touch
 								}
 							}
+
 
 
 
@@ -2149,8 +2158,9 @@ input, select, textarea {
 			@media screen and (max-width: 980px) {
 
 				table th {
-					font-size: 0.9rem;
+					font-size: 2rem;
 				}
+
 
 			}
 
@@ -3334,12 +3344,12 @@ object-fit: cover;
 		height: 4rem;
 		line-height: 4rem;
 		margin: -4rem auto 0 auto;
-		overflow: hidden;
+		overflow: visible;
 		padding: 0 2rem 0 0;
 		position: relative;
 		width: calc(100% - 4rem);
 		max-width: 72rem;
-		z-index: 2;
+		z-index: 2000;
 	}
 
 		#nav ul.divided li {
@@ -3898,9 +3908,9 @@ object-fit: cover;
 		position: fixed;
 		right: 0;
 		top: 0;
-		visibility: hidden;
+		visibility: visible;
 		width: 20rem;
-		z-index: 10002;
+		z-index: 99999 !important;
 	}
 
 		#navPanel .links {
@@ -4023,3 +4033,8 @@ object-fit: cover;
 	.table-responsive {
 	  border-radius: 20px;
 	}
+	@media (max-width: 450px) {
+    .table-responsive th {
+        font-size: 15px !important;
+    }
+}

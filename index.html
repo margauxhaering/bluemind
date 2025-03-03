@@ -25,7 +25,7 @@
 							<a href="#nav" class="button icon solid solo fa-arrow-down scrolly"></a>
 </div></div>
 
-
+<nav id="nav2"></nav>
 				<!-- Nav -->
 					<nav id="nav">
 						<ul class="links">
@@ -63,21 +63,24 @@
 
 
 		document.addEventListener("DOMContentLoaded", () => {
-			let navLinks;
+		    let navLinks;
+		    const mainContent = document.getElementById("main");
 
-			if (window.innerWidth < 500) {
-			    navLinks = document.querySelectorAll("#navPanel nav .links li");
-					const navPanel = document.querySelector("#navPanel");
-					navLinks.forEach(link => {
-					    link.addEventListener("click", () => {
-					        document.body.classList.remove("is-navPanel-visible");
+		    if (window.innerWidth < 500) {
+		        navLinks = document.querySelectorAll("#navPanel nav .links li");
+		        const navPanel = document.querySelector("#navPanel");
 
-					    });
-					});
-			} else {
-			    navLinks = document.querySelectorAll("#nav .links li");
-			}
-    const mainContent = document.getElementById("main");
+		        navLinks.forEach(link => {
+		            link.addEventListener("click", () => {
+		                document.body.classList.remove("is-navPanel-visible");
+
+		                mainContent.scrollIntoView({ behavior: "smooth", block: "start" });
+		            });
+		        });
+		    } else {
+		        navLinks = document.querySelectorAll("#nav .links li");
+		    }
+
 
     const contentMap = {
         "Blue Mind": `
@@ -142,45 +145,45 @@ C’est sur la douceur, le calme et la découverte de la vie sous marine qu’el
 						<header>
 							<h2>Apnée</h2>
 						</header>
-						<a href="activites.html?activity=Apnée#nav" class="image fit"><img src="images/claire2.png" alt="" /></a>
+						<a href="activites.html?activity=Apnée#nav2" class="image fit"><img src="images/claire2.png" alt="" /></a>
 						<ul class="actions special">
-							<li><a href="activites.html?activity=Apnée#nav" class="button">En détails</a></li>
+							<li><a href="activites.html?activity=Apnée#nav2" class="button">En détails</a></li>
 						</ul>
 					</article>
 					<article>
 						<header>
 							<h2>Snorkelling</h2>
 						</header>
-						<a href="activites.html?activity=Snorkelling#nav" class="image fit"><img src="images/snork.jpg" alt="" /></a>
+						<a href="activites.html?activity=Snorkelling#nav2" class="image fit"><img src="images/snork.jpg" alt="" /></a>
 						<ul class="actions special">
-							<li><a href="activites.html?activity=Snorkelling#nav" class="button">En détails</a></li>
+							<li><a href="activites.html?activity=Snorkelling#nav2" class="button">En détails</a></li>
 						</ul>
 					</article>
 					<article>
 						<header>
 							<h2>Formule Sunset/sunrise</h2>
 						</header>
-						<a href="activites.html?activity=Formule Sun#nav" class="image fit"><img src="images/sunset.jpg" alt="" /></a>
+						<a href="activites.html?activity=Formule Sun#nav2" class="image fit"><img src="images/sunset.jpg" alt="" /></a>
 						<ul class="actions special">
-							<li><a href="activites.html?activity=Formule Sun#nav" class="button">En détails</a></li>
+							<li><a href="activites.html?activity=Formule Sun#nav2" class="button">En détails</a></li>
 						</ul>
 					</article>
 					<article>
 						<header>
 							<h2>Formule explore</h2>
 						</header>
-						<a href="activites.html?activity=Formule Explore#nav" class="image fit"><img src="images/stretch.png" alt="" /></a>
+						<a href="activites.html?activity=Formule Explore#nav2" class="image fit"><img src="images/stretch.png" alt="" /></a>
 						<ul class="actions special">
-							<li><a href="activites.html?activity=Formule Explore#nav" class="button">En détails</a></li>
+							<li><a href="activites.html?activity=Formule Explore#nav2" class="button">En détails</a></li>
 						</ul>
 					</article>
 					<article>
 						<header>
 							<h2>Stage</h2>
 						</header>
-						<a href="activites.html?activity=Stage#nav" class="image fit"><img src="images/paddle.jpg" alt="" /></a>
+						<a href="activites.html?activity=Stage#nav2" class="image fit"><img src="images/paddle.jpg" alt="" /></a>
 						<ul class="actions special">
-							<li><a href="activites.html?activity=Stage#nav" class="button">En détails</a></li>
+							<li><a href="activites.html?activity=Stage#nav2" class="button">En détails</a></li>
 						</ul>
 					</article>
 				</section>

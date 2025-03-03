@@ -25,6 +25,7 @@
 						<a href="#nav" class="button icon solid solo fa-arrow-down scrolly"></a>
 </div></div>
 				<!-- Nav -->
+				<nav id="nav2"></nav>
 					<nav id="nav">
 						<ul class="links activities-nav">
 
@@ -437,16 +438,12 @@ Que vous souhaitiez découvrir l’apnée, progresser techniquement ou explorer 
 	             const selectedActivity = link.textContent.trim();
 	             setActiveTab(selectedActivity);
 	             history.replaceState(null, "", `?activity=${selectedActivity}`);
-	         });
+							 mainContent.scrollIntoView({ behavior: "smooth", block: "start" });
+
+					 });
 	     });
 	 });
 
-	 document.querySelectorAll(".nav").forEach(item => {
-			 item.addEventListener("click", function(event) {
-					 event.preventDefault();
-					 document.querySelector("#main").scrollIntoView({ behavior: "smooth" });
-			 });
-	 });
 
 </script>
 			<script src="assets/js/jquery.min.js"></script>
