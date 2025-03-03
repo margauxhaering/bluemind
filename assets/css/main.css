@@ -1751,8 +1751,8 @@ input, select, textarea {
 
 		.image.fit {
 			display: block;
-			margin: 1.5rem 1.5rem 1.5rem 5rem;
-			width: 65%;
+			margin: 1rem 1rem 1rem 4rem;
+			width: 75%;
 
 		}
 
@@ -1899,8 +1899,8 @@ input, select, textarea {
 				-webkit-flex-direction: column;
 				-ms-flex-direction: column;
 				flex-direction: column;
-				margin-left: 0;
-				width: 100% !important;
+				margin: 0 auto;
+				width: 40% !important;
 			}
 
 				ul.actions:not(.fixed) li {
@@ -3738,7 +3738,7 @@ object-fit: cover;
 				}
 
 				#main > .posts > article .image {
-					max-width: 15rem;
+					max-width: 20rem;
 					margin-left: auto;
 					margin-right: auto;
 				}
