@@ -2344,12 +2344,23 @@ input, select, textarea {
 	width:60%;
 }
 
+
+.cont {
+    display: none;
+}
+
+
+
 @media (max-width: 450px) {
 .vidmain video{
 	width:90%;
 }
+.cont {
+		display: block;
+		justify-content: center;
+		align-items: center;
 }
-
+}
 
 
 
