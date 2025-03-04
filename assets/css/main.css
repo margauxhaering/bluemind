@@ -1184,6 +1184,12 @@ input, select, textarea {
 	    font-size: 10px;
 			font-style: italic;
 	  }
+
+		.responsive-cell-block.wk-desk-1.wk-tab-1.wk-mobile-1.wk-ipadp-1.content.bottom {
+	    width: 100%;
+	    margin-top: 20px;
+	  }
+
 	}
 
 
