@@ -208,7 +208,7 @@ input, select, textarea {
 	p {
 		text-align: justify;
 		margin: 0 0 2rem 0;
-		font-size: 20px;
+		font-size: 16px;
 	}
 
 	h1, h2, h3, h4 {
@@ -1779,14 +1779,6 @@ input, select, textarea {
 				margin: 0 5rem;
 			}
 
-			@media screen and (max-width: 1506px) {
-
-				.image.fit {
-					margin: 2rem 0;
-				}
-
-
-			}
 
 
 
