@@ -195,8 +195,11 @@ input, select, textarea {
 	p {
 		text-align: justify;
 		margin: 0 0 2rem 0;
-		font-size: 16px;
+		font-size: 18px;
 	}
+
+
+
 
 	h1, h2, h3, h4 {
 		font-family: 'Cormorant Garamond', serif;
@@ -264,6 +267,13 @@ input, select, textarea {
 	h6 {
 		font-size: 0.8rem;
 	}
+
+	@media (max-width: 1280px) {
+		p {
+			font-size: 16px;
+		}
+	}
+
 
 	sub {
 		font-size: 0.8rem;
@@ -3546,8 +3556,13 @@ object-fit: cover;
 				text-align: center;
 			}
 
+@media screen and (max-width: 1280px) {
+	#main > .post header.major h2 {
+		font-size: 1.5rem;
 
+	}
 
+}
 			@media screen and (max-width: 736px) {
 
 				#main > .post {
