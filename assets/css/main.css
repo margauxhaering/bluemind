@@ -821,6 +821,7 @@ input, select, textarea {
 
 	.responsive-cell-block {
 	  min-height: 75px;
+		margin-top: 10px;
 	}
 
 	.text-blk {
