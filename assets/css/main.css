@@ -821,7 +821,6 @@ input, select, textarea {
 
 	.responsive-cell-block {
 	  min-height: 75px;
-		margin-top: 10px;
 	}
 
 	.text-blk {
@@ -916,6 +915,7 @@ input, select, textarea {
 	  flex-direction: column;
 	  justify-content: center;
 	  align-items: center;
+		margin-top: 30px;
 	}
 
 	.text-blk.info-block {
@@ -1131,7 +1131,7 @@ input, select, textarea {
 	@media (max-width: 500px) {
 	  .responsive-cell-block.wk-desk-1.wk-tab-1.wk-mobile-1.wk-ipadp-1.content {
 	    width: 100%;
-	    margin-top: 0px;
+	    margin-top: 30px;
 	    margin-right: 0px;
 	    margin-bottom: 8%;
 	    margin-left: 0px;
