@@ -3094,6 +3094,7 @@ object-fit: cover;
 		#intro img {
 				position: relative;
 				top: -300px;
+				width: 80%
 		}
 	}
 
