@@ -3051,7 +3051,7 @@ object-fit: cover;
 
 	#intro img {
 			position: relative;
-			top: -250px;
+			top: -150px;
 	}
 }
 
@@ -3059,7 +3059,7 @@ object-fit: cover;
 
 	#intro img {
 			position: relative;
-			top: -350px;
+			top: -200px;
 	}
 }
 
@@ -3075,7 +3075,7 @@ object-fit: cover;
 
 		#intro img {
 		    position: relative;
-		    top: -350px;
+		    top: -150px;
 		}
 	}
 
