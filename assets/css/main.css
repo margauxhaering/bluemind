@@ -3423,10 +3423,10 @@ object-fit: cover;
 			margin-bottom: 0;
 		}
 
-		@media screen and (max-width: 1320px) {
+		@media screen and (max-width: 980px) {
 
 			#nav {
-				display: none;
+				display: block;
 			}
 
 		}
@@ -3831,7 +3831,7 @@ object-fit: cover;
 				background-color: #ffffff;
 			}
 
-		@media screen and (max-width: 1320px) {
+		@media screen and (max-width: 980px) {
 
 			#navPanelToggle {
 				display: block;
@@ -3839,7 +3839,7 @@ object-fit: cover;
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 500px) {
 
 			#navPanelToggle {
 				font-size: 0.8rem;
@@ -3943,7 +3943,7 @@ object-fit: cover;
 				color: #212931;
 			}
 
-			@media screen and (max-width: 736px) {
+			@media screen and (max-width: 500px) {
 
 				#navPanel .close {
 					height: 4rem;
@@ -3952,7 +3952,7 @@ object-fit: cover;
 
 			}
 
-		@media screen and (max-width: 1320px) {
+		@media screen and (max-width: 980px) {
 
 			#navPanel {
 				display: block;
@@ -3973,7 +3973,7 @@ object-fit: cover;
 
 		}
 
-	@media screen and (max-width: 1320px) {
+	@media screen and (max-width: 980px) {
 
 		body.is-navPanel-visible #wrapper {
 			opacity: 0.5;
